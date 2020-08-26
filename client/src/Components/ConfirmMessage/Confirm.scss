@@ -1,0 +1,38 @@
+.buy-confirm-wrapper{
+    height: 100%;
+.modal-headers{
+    display: flex;
+    justify-content: space-between;
+}
+    .button-confirm-decline{
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        bottom: 0;
+        width:100%;
+        padding:12px;
+        button{
+            border:none;
+            border-radius:4px;
+        }
+
+        .confirm-color{
+            color:#fff;
+            background:#5bde48;
+        }   
+        .decline-color{
+            color:#fff;
+            background:red;
+        }
+    }
+
+    .stock-details{
+        border:2px solid #5bde48;
+        border-radius: 4px;
+        position: relative;
+        height: 300px;
+        .stock-text{
+            padding:12px;
+        }
+    }
+}

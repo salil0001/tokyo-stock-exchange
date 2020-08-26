@@ -1,0 +1,20 @@
+.user-wrapper-outer {
+  width: 100%;
+  overflow: scroll;
+  .user-wrapper {
+    margin: 2rem;
+    display: flex;
+    .user-wrap {
+      text-align: center;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=13, Direction=0, Color=#888888)";
+      box-shadow: 0 2px 13px 2px #888888;
+      filter: progid:DXImageTransform.Microsoft.Shadow(Strength=13, Direction=135, Color=#888888);
+      height: 180px;
+      width: 150px;
+      border-radius: 4px;
+      background: #242b52;
+      color: #fff;
+      margin: 0em 1em 0em 0em;
+    }
+  }
+}

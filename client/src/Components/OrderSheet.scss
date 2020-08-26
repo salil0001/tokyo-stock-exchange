@@ -1,0 +1,28 @@
+.Order-sheet-wrapper{
+    padding:2rem;
+    .table-wrapper{
+        background: #242b52;
+        border:4px;
+        color:#fff;
+        padding: 1rem;
+
+        .trading-history-body{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(360px,1fr));
+            .available-stocks-wrapper{
+                border:1px solid #fff;
+                margin:0px 8px 8px 0px;
+                .company-heading{
+                    display: flex;
+                    justify-content: space-between;
+                }
+                .company-body{
+                    display: flex;
+                    justify-content: space-between;
+                }
+            }
+        }
+       
+        
+    }
+}
